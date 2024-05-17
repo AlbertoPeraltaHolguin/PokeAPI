@@ -96,6 +96,7 @@ async function displayPokemon(pokemonName){
 
 if(PokeArreglo>0){
     PokeArreglo.unshift()
+
 }else{
     console.log
     PokeArreglo.push(pokemon)
