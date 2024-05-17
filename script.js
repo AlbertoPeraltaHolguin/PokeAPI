@@ -96,12 +96,10 @@ async function displayPokemon(pokemonName){
 
 if(PokeArreglo>0){
     PokeArreglo.unshift()
-
-
 }else{
     console.log
     PokeArreglo.push(pokemon)
-    onsole.log(PokeArreglo.length)
+    console.log(PokeArreglo.length)
     console.log(PokeArreglo)
 
     const container = document.getElementById('equipos');
@@ -119,22 +117,9 @@ if(PokeArreglo>0){
              container.appendChild(element);
             } );
 console.log(PokeArreglo)
+}    
 }
 
-
-
-
-    
-}
-
-//Agregar pokemon
-  async function agregarPokemon(pokemonName){
-    const pokemon= await getPokemon(pokemonName);
-    console.log
-  PokeArreglo.push(pokemon)
-      console.log(PokeArreglo.length)
-  console.log(PokeArreglo)
-  }
 
 
  
