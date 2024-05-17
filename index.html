@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+
+    <title>PokeApi</title>
+</head>
+<body>
+
+        <img class="logo" src="imagenes/Pokologo.png" >
+        <h1 class="presentacion">ARMA TU EQUIPO</h1>
+        <button id="guardar" class="btn-guardar">Guardar equipo pokemon</button>
+        <button id="buscar"> Guardar POKEMON</button>
+
+
+        <div class="pokecontainers">
+            <div class="poketarjeta"> 
+                <div class="separadorInfo">
+                    <input type="text" id="pokemonInput1" placeholder="Nombre o ID"><br>
+                    <button onclick="buscarPokemon(1)">Buscar pokemon</button>
+            </div>
+            <div class="info2">
+                <div id="pokeInfo1"></div>
+                </div>
+            </div>
+
+            <div class="poketarjeta"> 
+                <div class="info2">
+                    <input type="text" id="pokemonInput2" placeholder="Nombre o ID"><br>
+                    <button onclick="buscarPokemon(2)">Buscar pokemon</button>
+                    <div id="pokeInfo2"></div>
+                </div>
+            </div>
+
+            <div class="poketarjeta"> 
+                <div class="info2">
+                    <input type="text" id="pokemonInput3" placeholder="Nombre o ID"><br>
+                    <button onclick="buscarPokemon(3)">Buscar pokemon</button>
+                    <div id="pokeInfo3"></div>
+                </div>
+            </div>
+        </div>
+
+      
+      <div class="poketarjeta2">
+        <div id="equipos">
+        </div>  
+      </div>
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
